@@ -9,17 +9,19 @@
     width: 400px;
 }
 
-#id-button::before{
-    content: 'Hecho';
-}
-.button-sesion6::before{
-    content: 'Pasa por encima';
-}
-
 .button-sesion6:hover{
     background-color: green;
     color: white;
 }
+
+.button-sesion6::before{
+    content: 'Pasa por encima';
+}
+
+.button-sesion6:hover::before{
+    content: 'Hecho';
+}
+
 
 
 
